@@ -1,0 +1,14 @@
+# Sensitive environment variables - NEVER commit
+.env
+
+# Uploaded user files
+uploads/photos/*
+uploads/profiles/*
+!uploads/photos/.htaccess
+!uploads/profiles/.htaccess
+
+# Editor/OS junk
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
